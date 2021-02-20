@@ -1,0 +1,90 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/horizontal/index",
+      "style": {
+        "navigationBarTitleText": "横屏"
+      }
+    },
+    {
+      "path": "pages/search/index",
+      "style": {
+        "navigationBarTitleText": "搜索"
+      }
+    },
+    {
+      "path": "pages/album/index",
+      "style": {
+        "navigationBarTitleText": "专辑详情"
+      }
+    },
+    {
+      "path": "pages/imgDetail/index",
+      "style": {
+        "navigationBarTitleText": "图片详情"
+      }
+    },
+    {
+      "path": "pages/imgCategory/index",
+      "style": {
+        "navigationBarTitleText": "图片分类"
+      }
+    },
+    {
+      "path": "pages/imgDownload/index",
+      "style": {
+        "navigationBarTitleText": "图片下载"
+      }
+    },
+    {
+      "path": "pages/mine/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "emplish壁纸",
+    "navigationBarBackgroundColor": "#000"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#d4237a",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "./static/icon/home.png",
+        "selectedIconPath": "./static/icon/home-o.png"
+      },
+      {
+        "pagePath": "pages/horizontal/index",
+        "text": "横屏",
+        "iconPath": "./static/icon/horizontal.png",
+        "selectedIconPath": "./static/icon/horizontal-o.png"
+      },
+      {
+        "pagePath": "pages/search/index",
+        "text": "搜索",
+        "iconPath": "./static/icon/search.png",
+        "selectedIconPath": "./static/icon/search-o.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "./static/icon/mine.png",
+        "selectedIconPath": "./static/icon/mine-o.png"
+      }
+    ]
+  }
+}
